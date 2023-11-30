@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./style/styles.css";
+import Card from "./Components/Card";
 
 function App() {
   return (
     <>
-      <div className="flex justify-center align-middle">
-        <h1> thisa template</h1>
+      <div className="flex justify-center items-center h-[100%] bg-Cream">
+        <Card />
       </div>
     </>
   );
