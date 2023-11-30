@@ -35,7 +35,7 @@ const Card = () => {
             </p>
             <button className="flex gap-2 items-center justify-center text-Cream bg-Dark_cyan hover:bg-hover_Dark_cyan w-full p-4 rounded-[0.5rem] transition-colors">
               <img src={iconCart} alt="shopping cart icon" />
-              Add to Cart
+              <span className="font-bold">Add to Cart</span>
             </button>
           </div>
         </div>
