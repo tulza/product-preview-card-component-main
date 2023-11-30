@@ -26,14 +26,18 @@ const Card = () => {
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <p className="flex items-center gap-4">
-            <span className="f-bold text-[2.5rem] text-Dark_cyan">$149.99</span>{" "}
-            <span className="text-Dark_grayish_blue">$169.99</span>
-          </p>
-          <button className="flex gap-2 items-center justify-center text-Cream bg-Dark_cyan hover:bg-hover_Dark_cyan w-full p-4 rounded-[0.5rem] transition-colors">
-            <img src={iconCart} alt="shopping cart icon" />
-            Add to Cart
-          </button>
+          <div>
+            <p className="flex items-center gap-4">
+              <span className="f-bold text-[2.5rem] text-Dark_cyan">
+                $149.99
+              </span>{" "}
+              <span className="text-Dark_grayish_blue">$169.99</span>
+            </p>
+            <button className="flex gap-2 items-center justify-center text-Cream bg-Dark_cyan hover:bg-hover_Dark_cyan w-full p-4 rounded-[0.5rem] transition-colors">
+              <img src={iconCart} alt="shopping cart icon" />
+              Add to Cart
+            </button>
+          </div>
         </div>
       </div>
     </Fragment>
